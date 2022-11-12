@@ -8,3 +8,7 @@ fields:
 - type: datetime
   name: date
   label: date
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Gallery
