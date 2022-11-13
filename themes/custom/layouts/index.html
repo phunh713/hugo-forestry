@@ -1,1 +1,16 @@
-{{ define "main" }} {{.Content}} {{end}}
+{{ define "main" }}
+  {{ $blogUrl := .Site.GetPage "blogs" }}
+  <div
+    class="hero-banner h-[600px] flex items-center justify-center bg-red-200"
+  >
+    <div class="text-center max-w-[600px]">
+      <h1 class="font-bold text-6xl mb-5">{{ .Params.hero_heading }}</h1>
+      <p class="mb-5 text-xl">{{ .Params.hero_text }}</p>
+      <a href="{{ $blogUrl.RelPermalink }}">
+        <button class="px-5 py-2 bg-red-400">
+          {{ .Params.CTA }}
+        </button>
+      </a>
+    </div>
+  </div>
+{{ end }}
