@@ -7,4 +7,3 @@ hero_text: Achieve system and software success on the platforms that matter most
 CTA: Buy Now!
 
 ---
-index root
