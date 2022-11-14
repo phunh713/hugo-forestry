@@ -29,3 +29,7 @@ fields:
     label: CTA
     type: text
     hidden: false
+  - name: sub_heading
+    label: Sub Heading
+    type: text
+    hidden: false
