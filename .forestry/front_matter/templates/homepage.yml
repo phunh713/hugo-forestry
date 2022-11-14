@@ -31,5 +31,20 @@ fields:
   label: Sub Heading
   type: text
   hidden: false
+- name: trusted_by
+  type: field_group
+  config: {}
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: logo
+    type: file
+    config:
+      maxSize: 64
+    label: Logo
+  label: Trusted By
 pages:
 - content/_index.md
