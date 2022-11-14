@@ -2,7 +2,7 @@
 label: Homepage
 hide_body: true
 pages:
-  - /content/_index.md
+  - _index.md
 fields:
   - name: title
     label: Title
